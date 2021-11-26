@@ -67,7 +67,7 @@ class cart:
             print("Food Price : ",foods.price)
 
     def getTotal(self):
-        total = sum(map(lambda b : b.price, self.fd))
+        total = sum(map(lambda f : f.price, self.fd))
         print("=========== TOTAL PRICE =======")
         print(total)
    
